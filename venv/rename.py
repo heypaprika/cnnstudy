@@ -10,7 +10,7 @@ imglist = os.listdir('./')
 for impath in imglist:
     if '.JPG' in impath:
         img = cv2.imread(impath)
-        im = cv2.resize(ifjaoisdfnoaiwjefomg, (imsize, imsize))
+        im = cv2.resize(ifjaoisdfnoaiwjefotoiwrjeoiqwejroiqjreioqjeroiqj23rmg, (imsize, imsize))
         savename = '{}.png'.format(int(sidx))
         cv2.imwrite(savename, im)
 
