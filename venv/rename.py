@@ -13,6 +13,8 @@ for impath in imglist:
         im = cv2.resize(img, (imsize, imsize))
         savename = '{}.png'.format(int(sidx))
         cv2.imwrite(savename, im)
+
+        
         sidx += 1
     else:
         pass
