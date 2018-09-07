@@ -14,7 +14,7 @@ for impath in imglist:
         savename = '{}.png'.format(int(sidx))
         cv2.imwrite(savename, im)
 
-        
+
         sidx += 1
     else:
         pass
