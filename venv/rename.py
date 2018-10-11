@@ -23,4 +23,4 @@ cv2.waitKey(-1)
 
 
 
-#print(imglist)
+print(imglist)
